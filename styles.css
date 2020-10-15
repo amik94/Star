@@ -1,0 +1,139 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.000rem;
+  color: #668FBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #668FBF;
+  font-size: 2.0rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #93b5e1;
+
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #93b5e1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-container {
+  background-color: #e1f2fb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #668FBF;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.yoga-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.myButton {
+  box-shadow: 0px 0px 0px 2px #ebebeb;
+  background: linear-gradient(to bottom, #b2d0ff 5%, #4a84cc 100%);
+  background-color: #b2d0ff;
+  border-radius: 22px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 9px 15px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #8297cc;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #4a84cc 5%, #b2d0ff 100%);
+  background-color: #4a84cc;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
